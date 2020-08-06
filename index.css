@@ -1,7 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    max-width:100%;
+}
 html{
     font-size:62.5%;
 }
@@ -18,11 +23,6 @@ nav{
     text-align:center;
 }
 .headerpic{
-    display: inline-block;
-    width:10%;
-    height:20%;
-}
-.headerpic img{
     border-radius:50%;
     width:30%;
     display:inline-block;
