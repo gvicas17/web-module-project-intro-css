@@ -6,6 +6,7 @@
     padding:0;
     box-sizing:border-box;
     max-width:100%;
+    border:1px solid red;
 }
 html{
     font-size:62.5%;
@@ -26,11 +27,17 @@ nav{
     border-radius:50%;
     width:30%;
     display:inline-block;
+    margin-left:10%;
+    margin-top:10%;
 }
 .title{
     display:inline-block;
     width:50%;
     bottom:50%;
+    margin-left:5%;
+    text-align:center;
+    margin-bottom:15%;
+    padding:30px;
 }
 .plan{
 background:#FF764E;
@@ -61,9 +68,18 @@ height:50px;
 }
 .description{
     background-color:#DDB9A3;
+    margin-left:5%;
+    margin-right:5%;
+}
+.fire{
+    text-align:center;
+    
 }
 .bold{
     font-weight:bold;
+}
+.footerimg{
+    width:100%;
 }
 footer{
     background-color:#F9E7DC;
