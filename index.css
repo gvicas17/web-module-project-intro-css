@@ -23,7 +23,16 @@ h1, h2, h3, h4, h5, h6{
 nav{
     text-align:center;
 }
-.headerpic{
+.leftside{
+    display:inline-block;
+    text-align:left;
+    width:40%;
+}
+
+.img{
+width:60%;
+}
+.leftside img{
     border-radius:50%;
     width:30%;
     display:inline-block;
@@ -39,7 +48,7 @@ nav{
     margin-bottom:15%;
     padding:30px;
 }
-.plan{
+.orange{
 background:#FF764E;
 border-radius:10px;
 padding:2px;
@@ -48,7 +57,7 @@ margin: 50px;
 height: 50px;
 display:inline-block;
 }
-.learn{
+.blue{
 background:#5ED3EB;
 border-radius:10px;
 padding:2px;
@@ -57,7 +66,7 @@ margin: 50px;
 display:inline-block;
 height: 50px;
 }
-.involved{
+.yellow{
 background:#FFCD69;
 border-radius:10px;
 padding:2px;
@@ -71,16 +80,18 @@ height:50px;
     margin-left:5%;
     margin-right:5%;
 }
-.fire{
+.plan{
     text-align:center;
-    
+    display:inline-block;
+    margin-left:30%;
+    margin-right:20%;
 }
 .bold{
     font-weight:bold;
 }
-.footerimg{
+.hero-image{
+    background-image:url('https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true');
     width:100%;
-}
-footer{
-    background-color:#F9E7DC;
+    height:40vh;
+    background-size:100%;
 }
